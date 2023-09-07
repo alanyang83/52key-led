@@ -82,22 +82,22 @@
         default_layer {
             label = "DEFAULT";
             bindings = <
-&lt 3 ESC         &kp Q  &kp W          &kp E                     &kp R               &kp T              &kp Y           &kp U        &kp I      &kp O       &kp P     &lt 2 EQUAL
-&kp LEFT_CONTROL  &kp A  &kp S          &kp D                     &kp F               &kp G              &kp H           &kp J        &kp K      &kp L       &kp SEMI  &kp MINUS
-&kp LEFT_SHIFT    &kp Z  &kp X          &kp C                     &kp V               &kp B              &kp N           &kp M        &kp COMMA  &kp DOT     &kp FSLH  &kp RSHIFT
-                         &kp LC(GRAVE)  &kp LC(NON_US_BACKSLASH)  &lt 1 SPACE         &kp BACKSPACE      &lt 2 KP_ENTER  &lt 1 SPACE  &kp LBKT   &kp RBKT
-                         &kp CAPS       &none                     &mt LEFT_WIN LSHFT  &lt 1 PRINTSCREEN  &kp INSERT      &kp SQT      &none      &kp DELETE
+&lt 3 ESC         &kp Q  &kp W          &kp E                     &kp R         &kp T              &kp Y           &kp U        &kp I      &kp O       &kp P     &lt 2 EQUAL
+&kp LEFT_CONTROL  &kp A  &kp S          &kp D                     &kp F         &kp G              &kp H           &kp J        &kp K      &kp L       &kp SEMI  &kp MINUS
+&kp LEFT_SHIFT    &kp Z  &kp X          &kp C                     &kp V         &kp B              &kp N           &kp M        &kp COMMA  &kp DOT     &kp FSLH  &kp RSHIFT
+                         &kp LC(GRAVE)  &kp LC(NON_US_BACKSLASH)  &lt 1 SPACE   &kp BACKSPACE      &lt 2 KP_ENTER  &lt 1 SPACE  &kp LBKT   &kp RBKT
+                         &kp CAPSLOCK   &none                     &kp LEFT_WIN  &lt 1 PRINTSCREEN  &kp INSERT      &kp SQT      &none      &kp DELETE
             >;
         };
 
         number_layer {
             label = "NUMBER";
             bindings = <
-&kp TAB    &kp PLUS         &kp N7        &kp N8          &kp N9    &kp KP_SLASH  &kp F7          &kp F8         &kp F9  &kp F10  &kp F11  &kp F12
-&kp ENTER  &kp MINUS        &kp N4        &kp N5          &kp N6    &kp KP_DOT    &macro_email_q  &kp F4         &kp F5  &kp F6   &none    &none
-&kp ENTER  &kp KP_MULTIPLY  &kp NUMBER_1  &kp N2          &kp N3    &kp N0        &macro_phone    &kp F1         &kp F2  &kp F3   &none    &none
-                            &kp LC(C)     &mt LALT LC(V)  &kp BSPC  &kp SPACE     &kp ENTER       &kp LS(SPACE)  &none   &none
-                            &trans        &to 0           &to 0     &trans        &kp UP          &kp DOWN       &none   &none
+&kp TAB          &none          &kp N7        &kp N8          &kp N9    &kp KP_SLASH  &kp F7          &kp F8         &kp F9  &kp F10  &kp F11  &kp F12
+&kp PLUS         &kp MINUS      &kp N4        &kp N5          &kp N6    &kp KP_DOT    &macro_email_q  &kp F4         &kp F5  &kp F6   &none    &none
+&kp KP_MULTIPLY  &kp KP_DIVIDE  &kp NUMBER_1  &kp N2          &kp N3    &kp N0        &macro_phone    &kp F1         &kp F2  &kp F3   &none    &none
+                                &kp LC(C)     &mt LALT LC(V)  &kp BSPC  &lt 3 SPACE   &kp ENTER       &kp LS(SPACE)  &none   &none
+                                &trans        &to 0           &to 0     &trans        &kp UP          &kp DOWN       &none   &none
             >;
         };
 
