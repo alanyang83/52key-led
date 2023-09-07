@@ -82,11 +82,11 @@
         default_layer {
             label = "DEFAULT";
             bindings = <
-&lt 3 ESC         &kp Q  &kp W          &kp E                     &kp R               &kp T              &kp Y           &kp U        &kp I       &kp O       &kp P     &lt 2 EQUAL
-&kp LEFT_CONTROL  &kp A  &kp S          &kp D                     &kp F               &kp G              &kp H           &kp J        &kp K       &kp L       &kp SEMI  &kp MINUS
-&kp LEFT_SHIFT    &kp Z  &kp X          &kp C                     &kp V               &kp B              &kp N           &kp M        &kp COMMA   &kp DOT     &kp FSLH  &kp RSHIFT
-                         &kp LC(GRAVE)  &kp LC(NON_US_BACKSLASH)  &lt 1 SPACE         &kp BACKSPACE      &lt 2 KP_ENTER  &lt 1 SPACE  &kp LBKT    &kp RBKT
-                         &kp CAPS       &kp LALT                  &mt LEFT_WIN LSHFT  &lt 1 PRINTSCREEN  &none           &kp SQT      &kp INSERT  &kp DELETE
+&lt 3 ESC         &kp Q  &kp W          &kp E                     &kp R               &kp T              &kp Y           &kp U        &kp I      &kp O       &kp P     &lt 2 EQUAL
+&kp LEFT_CONTROL  &kp A  &kp S          &kp D                     &kp F               &kp G              &kp H           &kp J        &kp K      &kp L       &kp SEMI  &kp MINUS
+&kp LEFT_SHIFT    &kp Z  &kp X          &kp C                     &kp V               &kp B              &kp N           &kp M        &kp COMMA  &kp DOT     &kp FSLH  &kp RSHIFT
+                         &kp LC(GRAVE)  &kp LC(NON_US_BACKSLASH)  &lt 1 SPACE         &kp BACKSPACE      &lt 2 KP_ENTER  &lt 1 SPACE  &kp LBKT   &kp RBKT
+                         &kp CAPS       &none                     &mt LEFT_WIN LSHFT  &lt 1 PRINTSCREEN  &none           &kp SQT      &none      &kp DELETE
             >;
         };
 
