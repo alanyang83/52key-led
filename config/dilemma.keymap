@@ -86,7 +86,7 @@
 &kp LEFT_CONTROL  &kp A  &kp S          &kp D                     &kp F         &kp G              &kp H           &kp J        &kp K      &kp L     &kp SEMI  &kp MINUS
 &kp LEFT_SHIFT    &kp Z  &kp X          &kp C                     &kp V         &kp B              &kp N           &kp M        &kp COMMA  &kp DOT   &kp FSLH  &kp RSHIFT
                          &kp LC(GRAVE)  &kp LC(NON_US_BACKSLASH)  &lt 1 SPACE   &kp BACKSPACE      &lt 2 KP_ENTER  &lt 1 SPACE  &kp LBKT   &kp RBKT
-                         &none          &kp CAPSLOCK              &kp LEFT_WIN  &lt 1 PRINTSCREEN  &kp INSERT      &kp SQT      &kp DEL    &none
+                         &none          &kp CAPSLOCK              &kp LEFT_WIN  &lt 3 PRINTSCREEN  &lt 3 INS       &kp SQT      &kp DEL    &none
             >;
         };
 
