@@ -86,7 +86,7 @@
 &kp LEFT_CONTROL  &kp A  &kp S          &kp D                     &kp F               &kp G      &kp H           &kp J        &kp K      &kp L     &kp SEMI  &kp MINUS
 &kp LEFT_SHIFT    &kp Z  &kp X          &kp C                     &kp V               &kp B      &kp N           &kp M        &kp COMMA  &kp DOT   &kp FSLH  &kp RSHIFT
                          &kp LC(GRAVE)  &kp LC(NON_US_BACKSLASH)  &kp SPACE           &kp BSPC   &lt 2 KP_ENTER  &lt 1 SPACE  &kp LBKT   &kp RBKT
-                         &none          &kp LALT                  &mt LEFT_WIN LSHFT  &lt 1 DEL  &kp LGUI        &kp EQUAL    &kp LGUI   &none
+                         &kp CAPS       &kp LALT                  &mt LEFT_WIN LSHFT  &lt 1 DEL  &kp LGUI        &kp SQT      &kp LGUI   &none
             >;
         };
 
