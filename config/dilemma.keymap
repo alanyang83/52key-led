@@ -82,11 +82,11 @@
         default_layer {
             label = "DEFAULT";
             bindings = <
-&lt 3 ESC         &kp Q  &kp W      &kp E      &kp R               &kp T      &kp Y       &kp U        &kp I      &kp O     &kp P     &lt 2 MINUS
-&kp LEFT_CONTROL  &kp A  &kp S      &kp D      &kp F               &kp G      &kp H       &kp J        &kp K      &kp L     &kp SEMI  &kp SQT
-&kp LEFT_SHIFT    &kp Z  &kp X      &kp C      &kp V               &kp B      &kp N       &kp M        &kp COMMA  &kp DOT   &kp FSLH  &kp BSLH
-                         &kp LC(C)  &kp LC(V)  &kp SPACE           &kp BSPC   &lt 2 LEFT  &lt 1 RIGHT  &kp LBKT   &kp RBKT
-                         &none      &kp LALT   &mt LEFT_WIN LSHFT  &lt 1 DEL  &kp LGUI    &kp EQUAL    &kp LGUI   &none
+&lt 3 ESC         &kp Q  &kp W      &kp E      &kp R               &kp T      &kp Y           &kp U        &kp I      &kp O     &kp P     &lt 2 MINUS
+&kp LEFT_CONTROL  &kp A  &kp S      &kp D      &kp F               &kp G      &kp H           &kp J        &kp K      &kp L     &kp SEMI  &kp SQT
+&kp LEFT_SHIFT    &kp Z  &kp X      &kp C      &kp V               &kp B      &kp N           &kp M        &kp COMMA  &kp DOT   &kp FSLH  &kp BSLH
+                         &kp LC(C)  &kp LC(V)  &kp SPACE           &kp BSPC   &lt 2 KP_ENTER  &lt 1 SPACE  &kp LBKT   &kp RBKT
+                         &none      &kp LALT   &mt LEFT_WIN LSHFT  &lt 1 DEL  &kp LGUI        &kp EQUAL    &kp LGUI   &none
             >;
         };
 
